@@ -132,6 +132,7 @@ def launch_gradio(port):
         share="--share" in sys.argv,
         inbrowser="--open" in sys.argv,
         server_port=port,
+        server_name="0.0.0.0",
     )
 
 

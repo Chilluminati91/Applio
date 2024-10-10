@@ -1,15 +1,17 @@
 {
   "theme": {
-    "file": "Applio.py",
-    "class": "Applio"
+    "file": null,
+    "class": "Insuz/Mocha"
   },
-  "plugins": [],
-  "discord_presence": true,
+  "plugins": [
+    "model-toolbox"
+  ],
+  "discord_presence": false,
   "lang": {
-    "override": false,
+    "override": true,
     "selected_lang": "en_US"
   },
   "flask_server": false,
   "version": "3.2.6",
-  "model_author": "None"
+  "model_author": "dopfunk"
 }
